@@ -4,28 +4,28 @@ public class game
 	{
 		private void StartGame()
 			{
-				System.out.println("Игра Быки и коровы");
-				System.out.println("Вам нужно отгадать 4-ре числа");
+				System.out.println("Game Bulls and cows");
+				System.out.println("Р’Р°Рј РЅСѓР¶РЅРѕ РѕС‚РіР°РґР°С‚СЊ 4-СЂРµ С‡РёСЃР»Р°");
 			}
 		private void ResultGame(int BullNum, int CowNum)
 			{
-				System.out.println("Результат:");
-				System.out.println(BullNum+"Б");
-				System.out.println(CowNum+"К");
+				System.out.println("Р РµР·СѓР»СЊС‚Р°С‚:");
+				System.out.println(BullNum+"Р‘");
+				System.out.println(CowNum+"Рљ");
 			}
 		private void NewGame()
 			{
-				System.out.println("Старт!");
+				System.out.println("РЎС‚Р°СЂС‚!");
 			}
 		private void WinGame()
 			{
-				System.out.println("Вы выиграли, Желаете еще раз сыграть?");
-				System.out.println("Для начала новой игры нажмите '1' ");
-				System.out.println("Либо другую цифру для выхода!");
+				System.out.println("Р’С‹ РІС‹РёРіСЂР°Р»Рё, Р–РµР»Р°РµС‚Рµ РµС‰Рµ СЂР°Р· СЃС‹РіСЂР°С‚СЊ?");
+				System.out.println("Р”Р»СЏ РЅР°С‡Р°Р»Р° РЅРѕРІРѕР№ РёРіСЂС‹ РЅР°Р¶РјРёС‚Рµ '1' ");
+				System.out.println("Р›РёР±Рѕ РґСЂСѓРіСѓСЋ С†РёС„СЂСѓ РґР»СЏ РІС‹С…РѕРґР°!");
 			}
 		private void ExitGame()
 			{
-				System.out.println("Довстречи в новой игре ;)");
+				System.out.println("Р”РѕРІСЃС‚СЂРµС‡Рё РІ РЅРѕРІРѕР№ РёРіСЂРµ ;)");
 			}
 		private boolean BodyGame(Scanner scod, int[] SecretCode)
 			{
@@ -35,7 +35,7 @@ public class game
 				for(int i=0; i<4; i++)
 					{
 						Iinc=i+1;
-						System.out.println("Введите число №"+ Iinc +" = ");
+						System.out.println("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ в„–"+ Iinc +" = ");
 						UserCode[i] = scod.nextInt();
 					}
 				for(int i=0; i<4; i++)
