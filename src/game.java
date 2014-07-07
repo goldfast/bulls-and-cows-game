@@ -4,7 +4,7 @@ public class game
 	{
 		private void StartGame()
 			{
-				System.out.println("Game Bulls and cows");
+				System.out.println("Игра Быки и коровы");
 				System.out.println("Вам нужно отгадать 4-ре числа");
 			}
 		private void ResultGame(int BullNum, int CowNum)
